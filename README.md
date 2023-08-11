@@ -1,14 +1,12 @@
 # DMS (Debris disks around Main sequence Stars)
 
-=====================================================================================
-
  				 ------------------------------------------------
  				 DMS: Debris disks around Main-sequence Star code
 				 ------------------------------------------------
 
 
 				 author(s):         Minjae Kim
-				 version : 	        Nov 2019
+				 version: 	        Nov 2019
 				 email(s):          mkim@astrophysik.uni-kiel.de
 
 
@@ -23,7 +21,7 @@ PLEASE NOTE: The code is STILL IN DEVELOPMENT and bugs may exist!
 You are free to use and extend this code.
 But please write me and specify the use (modification) of this code.
 
-For details, please refere to 
+For details, please refer to 
 
 M. Kim, S. Wolf, T. Löhne, F. Kirchschlager, A.V. Krivov
 (2018 A&A 618, A38, https://arxiv.org/abs/1806.02391)
@@ -31,7 +29,7 @@ M. Kim, S. Wolf, T. Löhne, F. Kirchschlager, A.V. Krivov
 
 - SPECIAL THANKS
 
-With the very generous help of many people that find bugs and modify better way
+With the very generous help of many people that find bugs and modify the better way
 
 • Steve Ertel
 • Robert Brunngräber
@@ -39,8 +37,6 @@ With the very generous help of many people that find bugs and modify better way
 • Sebastian Wolf
 • Thomas Stuber
 
-
-=====================================================================================
 
 ---------------------------------------------------------------------------------------
 0. Documentation
@@ -53,7 +49,7 @@ a. DMS documentation will be released soon (Dec 2019)
 ---------------------------------------------------------------------------------------
 
 a. compiler
-Intel Fortran compiler/gfortran should give the best performence.
+Intel Fortran compiler/gfortran should give the best performance.
 
 b. optional
 Python2/3 (matplotlib, numpy, astropy, and so on) are required for visualization.
@@ -61,7 +57,7 @@ Python2/3 (matplotlib, numpy, astropy, and so on) are required for visualization
 ---------------------------------------------------------------------------------------
 2. You have to compile the code:
 ---------------------------------------------------------------------------------------
-CMake is used for to handle dependencies, compiler options and to produce a
+CMake is used to handle dependencies, and compiler options and to produce a
 Makefile.
 Go into the build folder, run cmake, run make to build the program:
 
@@ -89,7 +85,7 @@ Example inputs:
 4. Visualisation
 ---------------------------------------------------------------------------------------
 
-prepared scripts are found in the sub folder "visualization".
+prepared scripts are found in the subfolder "visualization".
 Python2/3 with various modules, e.g., matplotlib, numpy, astropy, and so on, are required.
 
 
@@ -98,9 +94,9 @@ Python2/3 with various modules, e.g., matplotlib, numpy, astropy, and so on, are
 > python3 images.py
 > python3 SED.py
 
-Please change scripts by your own purpose.
+Please change scripts for your own purpose.
 
-Ascii text file can be converted into the fitsfile via ascii_to_fits.py, which is given in
+Ascii text file can be converted into the fits file via ascii_to_fits.py, which is given in
 same folder.
 
 
@@ -108,7 +104,7 @@ same folder.
 5. Various optical data
 ---------------------------------------------------------------------------------------
 
-prepared various optical data are found in the sub folder "Optical data (Kim et al. 2019)".
+prepared various optical data are found in the subfolder "Optical data (Kim et al. 2019)".
 For more information, please see Kim et al. 2019
 
 Constraining the detectability of water ice in debris disks
